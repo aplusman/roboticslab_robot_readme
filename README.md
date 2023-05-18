@@ -10,8 +10,8 @@
 
 ### Procedure
 (1) 接上24V的power接口 (黃色label) \
-(2) 開啟工業電腦的Power (藍色label) \
-(3) 開啟3D LiDAR的pwoer開關 (紫色label) \
+(2) 開啟工業電腦的power (藍色label) \
+(3) 開啟3D LiDAR的power (紫色label) \
 (4) 開啟防疫機器人側邊黃色按鈕 \
 (5) 打開工業電腦 (red按鈕) \
 (6) ```cd ~/Desktop/dashgo/dashgo_ws/``` \
