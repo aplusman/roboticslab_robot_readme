@@ -18,6 +18,9 @@
 (7) ```source devel/setup.zsh``` \
 (8) ```roslaunch overall_system record_all.launch```
 
-### Attachment
-* ```lslidar_c16_0515.tar.xz``` for the Leishen LiDAR driver
+### Driver for Leishen C16 LiDAR
+
+* The attached ```lslidar_c16_0515.tar.xz``` includes some useful programs for Leishen C16.
+* In our modified code, this driver processes the scan message in ```pcl::PointCloud<pcl::PointXYZI>``` format
+and publishes the ROS message ```sensor_msgs::PointCloud2``` through the transformation ```pcl::toROSMsg```. 
 
